@@ -28,10 +28,9 @@ TARGET_2ND_CPU_ABI := armeabi-v7a
 TARGET_2ND_CPU_ABI2 := armeabi
 TARGET_2ND_CPU_VARIANT := cortex-a73
 
-TARGET_KERNEL_CLANG_COMPILE := true
-TARGET_KERNEL_CLANG_VERSION := 9.0.2
+TARGET_KERNEL_CLANG_COMPILE := false
 TARGET_KERNEL_SOURCE := kernel/google/wahoo
-TARGET_KERNEL_CONFIG := caesium_defconfig
+TARGET_KERNEL_CONFIG := LunarKernel_defconfig
 TARGET_KERNEL_ARCH := arm64
 BOARD_KERNEL_IMAGE_NAME := Image.lz4-dtb
 
@@ -84,7 +83,7 @@ BOARD_DTBOIMG_PARTITION_SIZE := 8388608
 
 TARGET_COPY_OUT_VENDOR := vendor
 
-BOARD_PREBUILT_VENDORIMAGE := true
+BOARD_PREBUILT_VENDORIMAGE := vendor/google_devices/taimen/proprietary/vendor.img
 
 # Install odex files into the other system image
 BOARD_USES_SYSTEM_OTHER_ODEX := true
