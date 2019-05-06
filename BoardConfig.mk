@@ -83,8 +83,6 @@ BOARD_DTBOIMG_PARTITION_SIZE := 8388608
 
 TARGET_COPY_OUT_VENDOR := vendor
 
-BOARD_PREBUILT_VENDORIMAGE := vendor/google_devices/taimen/proprietary/vendor.img
-
 # Install odex files into the other system image
 BOARD_USES_SYSTEM_OTHER_ODEX := true
 
