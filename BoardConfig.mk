@@ -169,8 +169,5 @@ TARGET_USES_MKE2FS := true
 
 BOARD_VNDK_VERSION := current
 
-# Audio
-BOARD_SUPPORTS_SOUND_TRIGGER := true
-
 # Security patch level
 VENDOR_SECURITY_PATCH := 2019-03-05
