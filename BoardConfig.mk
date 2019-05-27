@@ -67,7 +67,6 @@ TARGET_RECOVERY_WIPE := device/google/wahoo/recovery.wipe
 TARGET_RECOVERY_FSTAB := device/google/wahoo/fstab.hardware
 
 BOARD_AVB_ENABLE := true
-BOARD_AVB_MAKE_VBMETA_IMAGE_ARGS += --set_hashtree_disabled_flag
 BOARD_AVB_MAKE_VBMETA_IMAGE_ARGS += --flags 2
 
 BOARD_SYSTEMIMAGE_PARTITION_SIZE := 2684354560
